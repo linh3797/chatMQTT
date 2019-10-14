@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ScrollView
+        android:orientation="vertical" android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:padding="@dimen/margin_top"
+        android:background="@drawable/background_login">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="@dimen/margin_top">
+
+            <ImageView
+                android:src="@drawable/download1"
+                android:layout_marginBottom="@dimen/margin_top"
+                android:layout_gravity="center"
+                android:layout_width="100dp"
+                android:layout_height="100dp"/>
+
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:id="@+id/username"
+                android:hint="@string/email_or_numberPhone"
+                android:drawableLeft="@drawable/ic_smartphone_with_email"
+                android:drawablePadding="@dimen/padding_left"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:met_floatingLabel="highlight" />
+
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:id="@+id/pasword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/ic_password"
+                android:drawablePadding="@dimen/padding_left"
+                android:hint="@string/password"
+                android:inputType="textPassword"
+                app:met_floatingLabel="highlight" />
+
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:id="@+id/confirmPassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/ic_shield"
+                android:drawablePadding="@dimen/padding_left"
+                android:hint="@string/confirm"
+                android:inputType="textPassword"
+                app:met_floatingLabel="highlight" />
+
+            <LinearLayout
+                android:layout_marginTop="@dimen/margin_top"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="right">
+
+                <Button
+                    android:id="@+id/dangki"
+                    android:text="@string/register"
+                    android:background="@drawable/background_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAllCaps="false" />
+                <Button
+                    android:id="@+id/thoat"
+                    android:layout_marginLeft="@dimen/margin_top"
+                    android:text="@string/exit"
+                    android:background="@drawable/background_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAllCaps="false" />
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+</layout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="margin_top">16dp</dimen>
+    <dimen name="size_account_login">19sp</dimen>
+    <dimen name="text_normal">16sp</dimen>
+    <dimen name="border">2dp</dimen>
+    <dimen name="radius">15dp</dimen>
+    <dimen name="padding_left">10dp</dimen>
+    <dimen name="padding10">10dp</dimen>
+</resources>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1086468062268",
+    "firebase_url": "https://chatmqtt.firebaseio.com",
+    "project_id": "chatmqtt",
+    "storage_bucket": "chatmqtt.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1086468062268:android:0dbd05f7192b2bb8e71739",
+        "android_client_info": {
+          "package_name": "com.vccorp.chatmqtt"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1086468062268-9o8ukeqi8i8oknokld1dlpi812mv4ca4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.vccorp.chatmqtt",
+            "certificate_hash": "10907986c0c5debdff4be994f83f9915c9aea8af"
+          }
+        },
+        {
+          "client_id": "1086468062268-9b3c8m6c7nleq8jhq10uqh7s405ika9n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAzrpanBqj2mvKC0RODBPCzHkbLsERaJpM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1086468062268-9b3c8m6c7nleq8jhq10uqh7s405ika9n.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

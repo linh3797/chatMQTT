@@ -1,3 +1,18 @@
 <resources>
     <string name="app_name">ChatMQTT</string>
+    <string name="email_or_numberPhone">Nhập Email hoặc Số điện thoại</string>
+    <string name="password">Nhập Mật khẩu</string>
+    <string name="login">Đăng nhập</string>
+    <string name="register">Đăng kí</string>
+    <string name="forgetpassword">Quên mật khẩu</string>
+    <string name="confirm">Nhập lại Mật khẩu</string>
+    <string name="exit">Thoát</string>
+
+    <string name="toast_null">Không được để trống các trường</string>
+    <string name="home">Trang Chủ</string>
+    <string name="list">Danh sách</string>
+    <string name="takePhoto">Chụp màn hình</string>
+    <string name="mine">Của Tôi</string>
+    <string name="chat">Chat</string>
+    <string name="manage">Quản Lý Tài Khoản</string>
 </resources>
